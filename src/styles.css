@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional customizations */
+body {
+    @apply bg-gray-100 text-gray-800 font-sans;
+}
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Enforce grid layout */
+.grid-cols-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
